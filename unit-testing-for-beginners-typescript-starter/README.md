@@ -7,10 +7,10 @@ This is a project which is used to build to test the codes test, wallet and jack
 => sudo npm install
 
 # usage
-- the spec.ts files are located in the src file.
-- to test the file, we use the command => npm run test
-- we need to command < npm run test-cov > to get the test coverage of all the tests which are in the folder.
+- The spec.ts files are located in the src file.
+- To test the file, we use the command => npm run test
+- We need to command < npm run test-cov > to get the test coverage of all the tests which are in the folder.
   
 # Contact
-  name : Ajay Gajula
-  email: ajay.gajula@everest.engineering
+  Name : Ajay Gajula ,
+  Email: ajay.gajula@everest.engineering
