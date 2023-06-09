@@ -7,11 +7,10 @@ class LoggerMock implements iLogger {
   constructor() {
     this.called = 0;
   }
-  public log(text: string) {
+  public log() {
     this.called += 1;
   }
 }
-
 class RandomGenStub implements IRandomNumberGenerator {
   private returnVal: number;
 
@@ -19,11 +18,10 @@ class RandomGenStub implements IRandomNumberGenerator {
     this.returnVal = returnVal;
   }
 
-  public random(min: number, max: number): number {
+  public random(): number {
     return this.returnVal;
   }
 }
-
 describe('test encoder', () => {
   test('should encode text correctly', () => {
     // Arrange

@@ -11,7 +11,6 @@ export default class Encoder {
     this.secretGen = secretGen;
     this.logger = logger;
   }
-
   public encode(text: string): string {
     const source = text.toLowerCase();
     let result = '';

@@ -20,7 +20,7 @@ var jackpot = /** @class */ (function () {
         }
     };
     jackpot.prototype.writeIntoLog = function (number1, number2, number3) {
-        var log = "Generated ".concat(number1, " ").concat(number2, " ").concat(number3, "\n");
+        var log = "Generated ".concat(number1, " ").concat(number2, " ").concat(number3);
         this.logger.log(log);
     };
     return jackpot;
@@ -30,4 +30,3 @@ var stubs = new RandomNumberGenerator_1.RandomNumberGenerator();
 var loggerMo = new logger_1.Logger();
 var enco = new jackpot(stubs, loggerMo);
 enco.spin();
-console.log('jackpot');
